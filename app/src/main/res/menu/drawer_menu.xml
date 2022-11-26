@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Cửa hàng">
+        <menu>
+            <item
+                android:title="Hóa đơn"
+                android:icon="@drawable/home"
+                android:id="@+id/nav_home"/>
+            <item
+                android:title="Sản phẩm"
+                android:icon="@drawable/products"
+                android:id="@+id/nav_products"/>
+        </menu>
+    </item>
+    <item android:title="Thống kê">
+        <menu>
+            <item
+                android:title="Doanh thu"
+                android:icon="@drawable/linechart"
+                android:id="@+id/nav_chart"/>
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <item
+                android:title="Thêm người dùng"
+                android:icon="@drawable/adduser"
+                android:id="@+id/nav_adduser"/>
+            <item
+                android:title="Quản lý người dùng"
+                android:icon="@drawable/group"
+                android:id="@+id/nav_manage"/>
+            <item
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/resetpassword"
+                android:id="@+id/nav_reset"/>
+            <item
+                android:title="Đăng suất"
+                android:icon="@drawable/logout"
+                android:id="@+id/nav_logout"/>
+        </menu>
+    </item>
+</menu>
